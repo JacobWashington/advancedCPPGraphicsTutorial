@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL/SDL.h>
 #include <GL/glew.h>
+#include <vector>
 
 #include "Sprite.h"
 #include "GLSLProgram.h"
@@ -28,7 +29,8 @@ private:
 	int _screenHeight;
 	GameState _gameState;
 
-	Sprite _sprite;
+
+	std::vector <Sprite*> _sprites;
 
 
 	GLSLProgram _colorProgram;

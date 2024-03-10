@@ -1,3 +1,4 @@
 ﻿  MainGame.cpp
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(77,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(82,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(121,20): warning C4018: '<': signed/unsigned mismatch
   graphicsTutorials.vcxproj -> C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Debug\graphicsTutorials.exe
