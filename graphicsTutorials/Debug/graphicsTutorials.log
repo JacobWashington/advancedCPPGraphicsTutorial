@@ -1,8 +1,10 @@
-﻿  MainGame.cpp
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(86,20): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(89,16): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(104,34): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(144,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(161,25): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(164,29): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+﻿  Main.cpp
+  MainGame.cpp
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(92,20): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(95,16): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(110,34): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(150,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(167,25): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\graphicsTutorials\MainGame.cpp(170,29): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+  Generating Code...
   graphicsTutorials.vcxproj -> C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Debug\graphicsTutorials.exe

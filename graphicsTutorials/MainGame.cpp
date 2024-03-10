@@ -39,6 +39,10 @@ void MainGame::initSystems() {
 	// Initialize SDL
 	SDL_Init(SDL_INIT_EVERYTHING);
 
+	// Tell SDL that we want a double buffered window so we don't get
+	// any flickering
+	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+
 	_window =
 		SDL_CreateWindow("Game Engine",
 			SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
@@ -61,11 +65,13 @@ void MainGame::initSystems() {
 		fatalError("Could not initialize glew!");
 	}
 
-	// Tell SDL that we want a double buffered window so we don't get
-	// any flickering
-	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+	// Check the OpenGL Version
+	std::printf("*** OpenGL Version: %s ***\n", glGetString(GL_VERSION));
 
 	glClearColor(0.0f, 0.0f, 1.0f, 1.0);
+
+	// Set VSYNC
+	SDL_GL_SetSwapInterval(0);
 
 	initShaders();
 }
@@ -89,7 +95,7 @@ void MainGame::gameLoop()
 		_time += 0.06;
 		drawGame();
 		calculateFPS();
-		
+
 		// print once every 10 frame
 		static int frameCounter = 0;
 		frameCounter++;
@@ -159,7 +165,7 @@ void MainGame::calculateFPS()
 	static int currentFrame = 0;
 
 	static float prevTicks = SDL_GetTicks();
-	
+
 	float currentTicks;
 	currentTicks = SDL_GetTicks();
 
@@ -169,7 +175,7 @@ void MainGame::calculateFPS()
 	prevTicks = currentTicks;
 
 	int count;
-	
+
 	currentFrame++;
 
 	if (currentFrame < NUM_SAMPLES) {
