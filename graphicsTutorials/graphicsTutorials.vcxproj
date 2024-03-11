@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)/deps/include/;$(SolutionDir)/Bengine/;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/deps/include/;$(SolutionDir);$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)/deps/lib/;$(SolutionDir)/debug/;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

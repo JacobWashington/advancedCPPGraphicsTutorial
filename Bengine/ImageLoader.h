@@ -3,9 +3,11 @@
 
 #include <string>
 
-class ImageLoader
-{
-public:
-	static GLTexture loadPNG(std::string filePath);
-};
+namespace Bengine {
+	class ImageLoader
+	{
+	public:
+		static GLTexture loadPNG(std::string filePath);
+	};
+}
 

@@ -1,19 +1,4 @@
 ﻿  Bengine.cpp
-  Errors.cpp
-  GLSLProgram.cpp
-  ImageLoader.cpp
-  IOManager.cpp
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Bengine\IOManager.cpp(16,15): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Bengine\IOManager.cpp(20,24): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
-  picoPNG.cpp
-  ResourceManager.cpp
-  Sprite.cpp
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Bengine\Sprite.cpp(21,7): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Bengine\Sprite.cpp(22,7): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Bengine\Sprite.cpp(23,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Bengine\Sprite.cpp(24,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  TextureCache.cpp
-  Generating Code...
 opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
 glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
   Bengine.vcxproj -> C:\Users\jbenj\OneDrive\Desktop\graphicsTutorials\Debug\Bengine.lib
